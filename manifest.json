@@ -1,0 +1,19 @@
+{
+  "name": "Instagram Friend Request Acceptor",
+  "description":"Accepting All Friends Request",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions":[
+      "activeTab","background"
+  ],
+  "action": {
+    "default_popup":"popup.html",
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

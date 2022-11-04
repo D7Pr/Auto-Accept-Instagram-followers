@@ -1,0 +1,13 @@
+#wrapper{
+
+    height: 100px;
+    width: 300px; 
+}
+
+.wrapper h1{
+    font-size: 1.5rem;
+}
+
+.wrapper h5{
+    text-align: center;
+}
